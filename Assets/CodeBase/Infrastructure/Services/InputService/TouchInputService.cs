@@ -15,21 +15,16 @@ namespace CodeBase.InputService
 
 		private Vector3 _touchUpValue;
 		private Vector3 _touchDownValue;
-
-		private bool _isLockedInput;
 		private float _touchEndTimeValue;
 		private float _touchStartTimeValue;
+		private bool _isLockedInput = false;
+
 		public Vector3 TouchUpValue => _touchUpValue;
 		public Vector3 TouchDownValue => _touchDownValue;
 		public float TouchEndTimeValue => _touchEndTimeValue;
 		public float TouchStartTimeValue => _touchStartTimeValue;
 		public TouchPhase Phase { get; private set; }
 		public Vector3 TouchMoveValue { get; private set; }
-
-		public void Init(IProtoSystems systems)
-		{
-			_isLockedInput = false;
-		}
 		
 		private void Awake() => ResetSwipeTiming();
 
@@ -102,11 +97,6 @@ namespace CodeBase.InputService
 			_touchUpValue = Input.mousePosition;
 			_touchEndTimeValue = Time.time;
 			OnTouchedEnd?.Invoke();
-		}
-
-		public void Destroy()
-		{
-			
 		}
 	}
 }
