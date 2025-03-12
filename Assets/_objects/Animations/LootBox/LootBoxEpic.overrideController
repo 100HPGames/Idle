@@ -6,7 +6,7 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LootBoxGold
+  m_Name: LootBoxEpic
   m_Controller: {fileID: 9100000, guid: 057f6eae9cbe4e34aad6e7a1f3c57b6b, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 4636095452770625587, guid: 37454fd5a4299fd42902093782d0f64c,

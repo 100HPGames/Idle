@@ -4,20 +4,18 @@ using UnityEngine;
 
 namespace CodeBase.MonoBehaivours
 {
-	public class EnemyView : EnemyAbstract
+	public class EnemyView : MonoBehaviour
 	{
 		[Header("UI")]
 		[SerializeField] private ProgressBar _healthBar;
-
-		private Coroutine _timerRoutine;
-
-		public override void SetMaxHealth(float healthValue)
+		
+		public void SetMaxHealth(float healthValue)
 		{
 			_healthBar.SetMaxValue(healthValue, true);
 			_healthBar.SetValue(healthValue);
 		}
 
-		public override void SetHealth(float healthValue)
+		public void SetHealth(float healthValue)
 		{
 			_healthBar.SetValue(healthValue);
 		}

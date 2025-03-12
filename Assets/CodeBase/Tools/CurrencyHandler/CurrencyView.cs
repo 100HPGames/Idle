@@ -1,4 +1,3 @@
-using System;
 using CodeBase.Tools.Helpers;
 using DG.Tweening;
 using TMPro;

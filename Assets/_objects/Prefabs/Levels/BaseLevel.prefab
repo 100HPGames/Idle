@@ -31,6 +31,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7705829678145502099}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1748314932016721156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4418693532262900864}
+  m_Layer: 0
+  m_Name: EnemySpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4418693532262900864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748314932016721156}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.92, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7705829678145502099}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4239010594750416189
 GameObject:
   m_ObjectHideFlags: 0
@@ -77,44 +108,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7d9585cbf7d2c84fa341d678b7cfab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPosition: {fileID: 3596791398308442613}
-  AoeDamageTarget: {fileID: 0}
-  EnemyLineStart: {fileID: 0}
-  EnemyLineEnd: {fileID: 0}
-  EnemyPositions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  LevelPieces:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  BgOne:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  BgTwo:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  GroundSpawns:
-  - {fileID: 0}
-  - {fileID: 0}
-  SkySpawns:
-  - {fileID: 0}
-  - {fileID: 0}
-  BattleSprites:
-  - {fileID: 21300000, guid: 158a967f0cc96d74187c94e872972758, type: 3}
-  BoonSprites:
-  - {fileID: 21300000, guid: 158a967f0cc96d74187c94e872972758, type: 3}
-  TransitionSprites:
-  - {fileID: 21300000, guid: 1eaa28d89b4109b4fb4a6f5715d41492, type: 3}
+  <PlayerSpawn>k__BackingField: {fileID: 3596791398308442613}
+  <EnemySpawn>k__BackingField: {fileID: 4418693532262900864}
 --- !u!1 &8737930968199208779
 GameObject:
   m_ObjectHideFlags: 0
@@ -176,5 +171,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3596791398308442613}
+  - {fileID: 4418693532262900864}
   m_Father: {fileID: 3731640900068795934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
