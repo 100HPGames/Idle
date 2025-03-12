@@ -1,0 +1,13 @@
+{
+    "name": "ru.leopotam.ik",
+    "author": "Leopotam",
+    "displayName": "Inverse Kinematics",
+    "description": "Поддержка инверсной кинематики.",
+    "unity": "2021.3",
+    "version": "2025.1.14",
+    "keywords": [
+        "ik",
+        "inverse kinematics"
+    ],
+    "dependencies": {}
+}

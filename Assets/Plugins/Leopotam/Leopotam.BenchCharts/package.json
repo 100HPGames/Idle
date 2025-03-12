@@ -1,0 +1,13 @@
+{
+    "name": "ru.leopotam.benchcharts",
+    "author": "Leopotam",
+    "displayName": "Bench Charts",
+    "description": "Генерация графиков для результатов измерений.",
+    "unity": "2021.3",
+    "version": "2025.1.14",
+    "keywords": [
+        "reports",
+        "charts"
+    ],
+    "dependencies": {}
+}

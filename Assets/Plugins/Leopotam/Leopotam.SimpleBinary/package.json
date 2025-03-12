@@ -1,0 +1,13 @@
+{
+    "name": "ru.leopotam.simplebinary",
+    "author": "Leopotam",
+    "displayName": "SimpleBinary",
+    "description": "SimpleBinary - легковесная замена protobuf/flatbuffers для C#",
+    "unity": "2021.3",
+    "version": "2025.1.14",
+    "keywords": [
+        "serialization",
+        "binary",
+        "performance"
+    ]
+}

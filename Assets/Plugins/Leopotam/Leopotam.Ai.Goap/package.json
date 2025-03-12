@@ -1,0 +1,14 @@
+{
+    "name": "ru.leopotam.ai.goap",
+    "author": "Leopotam",
+    "displayName": "AI GOAP",
+    "description": "AI GOAP - реализация планировщика Goal Oriented Action Planning.",
+    "unity": "2021.3",
+    "version": "2025.1.14",
+    "keywords": [
+        "ai",
+        "goap",
+        "performance"
+    ],
+    "dependencies": {}
+}

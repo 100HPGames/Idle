@@ -1,0 +1,1911 @@
+{
+  "PlayerDto": {
+    "HeroHealth": 1000.0,
+    "MaxSpellLength": 3,
+    "AutoAttackAnimationTime": 0.3,
+    "AutoAttackReloadTime": 0.4,
+    "AutoAttackFlyTime": 0.3,
+    "StartMana": 5.0,
+    "ManaRegen": 1.275,
+    "MaxMana": 10.0,
+    "ShardsDamageThreshold": 100,
+    "EnemyRegenPerSec": 5.0,
+    "RageDamageMultiplier": 2.0,
+    "RageCooldownReduction": 0.5,
+    "MoneyStealAmount": 100,
+    "MoneyStealHitMax": 5,
+    "DefaultDuration": 3.0,
+    "DefaultTickTime": 1.0,
+    "NoRecipesInLootBoxCompensation": 1000,
+    "RarityCostList": [
+      {
+        "Type": 1,
+        "UnlockShardsAmount": 1.0,
+        "SoftUpgradeLvlCoeff": 250.0,
+        "ShardsUpgradeLvlCoeff": 2.0
+      },
+      {
+        "Type": 2,
+        "UnlockShardsAmount": 1.0,
+        "SoftUpgradeLvlCoeff": 500.0,
+        "ShardsUpgradeLvlCoeff": 5.0
+      },
+      {
+        "Type": 3,
+        "UnlockShardsAmount": 1.0,
+        "SoftUpgradeLvlCoeff": 750.0,
+        "ShardsUpgradeLvlCoeff": 10.0
+      },
+      {
+        "Type": 4,
+        "UnlockShardsAmount": 1.0,
+        "SoftUpgradeLvlCoeff": 750.0,
+        "ShardsUpgradeLvlCoeff": 100.0
+      }
+    ],
+    "SpellLengthMultipliers": [
+      1.0,
+      1.05,
+      1.1,
+      1.2,
+      1.25
+    ],
+    "MagickElementsList": [
+      {
+        "Id": 1,
+        "Description": "Add Dot",
+        "StartDamage": 18.0,
+        "LelUpDamage": 1.0,
+        "StartValue": 3.0,
+        "LevelUpValue": 0.34,
+        "AdditionalStats": [
+          {
+            "Action": 0,
+            "Type": 10,
+            "Value": 3.0
+          },
+          {
+            "Action": 0,
+            "Type": 11,
+            "Value": 1.0
+          }
+        ],
+        "Manacost": 1.0,
+        "CurrencyType": 0,
+        "StartPrice": 50.0,
+        "LevelUpPrice": 50.0,
+        "MaxLevel": 10
+      },
+      {
+        "Id": 2,
+        "Description": "Slow attack",
+        "StartDamage": 22.0,
+        "LelUpDamage": 2.0,
+        "StartValue": 0.25,
+        "LevelUpValue": 0.025,
+        "AdditionalStats": [
+          {
+            "Action": 0,
+            "Type": 10,
+            "Value": 3.0
+          }
+        ],
+        "Manacost": 1.0,
+        "CurrencyType": 0,
+        "StartPrice": 50.0,
+        "LevelUpPrice": 50.0,
+        "MaxLevel": 10
+      },
+      {
+        "Id": 4,
+        "Description": "Stuns",
+        "StartDamage": 22.0,
+        "LelUpDamage": 2.0,
+        "StartValue": 0.5,
+        "LevelUpValue": 0.05,
+        "AdditionalStats": [],
+        "Manacost": 1.0,
+        "CurrencyType": 0,
+        "StartPrice": 50.0,
+        "LevelUpPrice": 50.0,
+        "MaxLevel": 10
+      },
+      {
+        "Id": 3,
+        "Description": "Targets all",
+        "StartDamage": 18.0,
+        "LelUpDamage": 1.0,
+        "StartValue": 0.3,
+        "LevelUpValue": 0.025,
+        "AdditionalStats": [],
+        "Manacost": 1.0,
+        "CurrencyType": 0,
+        "StartPrice": 50.0,
+        "LevelUpPrice": 50.0,
+        "MaxLevel": 10
+      }
+    ],
+    "BoonList": [
+      {
+        "Type": 10,
+        "Amount": 0.35,
+        "Description": "Regenerates {0} percents of health",
+        "DropChancePercent": 100.0,
+        "Weight": 100.0
+      },
+      {
+        "Type": 100,
+        "Amount": 1.0,
+        "Description": "UpgradeSpell on {0}",
+        "DropChancePercent": 1.0,
+        "Weight": 1.0
+      },
+      {
+        "Type": 200,
+        "Amount": 1.0,
+        "Description": "Get new Spell {0}",
+        "DropChancePercent": 98.0,
+        "Weight": 98.0
+      },
+      {
+        "Type": 20,
+        "Amount": 200.0,
+        "Description": "Bonus {0} Soft",
+        "DropChancePercent": 1.0,
+        "Weight": 1.0
+      }
+    ]
+  },
+  "ShopDto": {
+    "CurrencyShopDTO": [
+      {
+        "CurrencyType": 0,
+        "Rare": 1,
+        "Count": 1.0,
+        "Price": 10.0,
+        "PriceType": 1
+      },
+      {
+        "CurrencyType": 0,
+        "Rare": 2,
+        "Count": 5.0,
+        "Price": 20.0,
+        "PriceType": 1
+      },
+      {
+        "CurrencyType": 0,
+        "Rare": 3,
+        "Count": 10.0,
+        "Price": 100.0,
+        "PriceType": 1
+      },
+      {
+        "CurrencyType": 100,
+        "Rare": 3,
+        "Count": 1.0,
+        "Price": 100.0,
+        "PriceType": 1
+      }
+    ],
+    "LootBoxesDTOs": [
+      {
+        "LootBoxType": 1,
+        "RewardsCount": 2,
+        "PriceType": 1,
+        "PriceValue": 100
+      },
+      {
+        "LootBoxType": 10,
+        "RewardsCount": 4,
+        "PriceType": 1,
+        "PriceValue": 180
+      }
+    ]
+  },
+  "SpellsList": [
+    {
+      "Id": 200,
+      "AvailableType": 200,
+      "Rarity": 1,
+      "Name": "WaterFall",
+      "Description": "Deal many damague",
+      "TargetsNumber": 2,
+      "FlyTime": 0.35,
+      "CastTime": 0.35,
+      "ChannelSpell": false,
+      "TargetType": 2,
+      "ActionTypes": [
+        800,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 800,
+          "Type": 30,
+          "Value": 1.1
+        }
+      ],
+      "ElementsRecipe": [
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      "PriceType": 100,
+      "RecipeDropChance": 100.0,
+      "Weight": 100.0
+    },
+    {
+      "Id": 300,
+      "AvailableType": 1,
+      "Rarity": 2,
+      "Name": "FireBall",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.25,
+      "CastTime": 0.25,
+      "ChannelSpell": false,
+      "TargetType": 2,
+      "ActionTypes": [
+        800,
+        400,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 800,
+          "Type": 30,
+          "Value": 2.4
+        },
+        {
+          "Action": 400,
+          "Type": 30,
+          "Value": 1.0
+        },
+        {
+          "Action": 400,
+          "Type": 10,
+          "Value": 3.0
+        },
+        {
+          "Action": 400,
+          "Type": 11,
+          "Value": 1.0
+        }
+      ],
+      "ElementsRecipe": [
+        1,
+        4,
+        1,
+        0,
+        0
+      ],
+      "PriceType": 101,
+      "RecipeDropChance": 10.0,
+      "Weight": 10.0
+    },
+    {
+      "Id": 400,
+      "AvailableType": 200,
+      "Rarity": 2,
+      "Name": "WaterBubbles",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.35,
+      "CastTime": 0.35,
+      "ChannelSpell": false,
+      "TargetType": 1,
+      "ActionTypes": [
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [],
+      "ElementsRecipe": [
+        2,
+        1,
+        4,
+        0,
+        0
+      ],
+      "PriceType": 102,
+      "RecipeDropChance": 10.0,
+      "Weight": 10.0
+    },
+    {
+      "Id": 500,
+      "AvailableType": 200,
+      "Rarity": 3,
+      "Name": "Firestorm",
+      "Description": "Deal many damague",
+      "TargetsNumber": 3,
+      "FlyTime": 0.35,
+      "CastTime": 0.35,
+      "ChannelSpell": false,
+      "TargetType": 2,
+      "ActionTypes": [
+        800,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 800,
+          "Type": 30,
+          "Value": 1.4
+        }
+      ],
+      "ElementsRecipe": [
+        1,
+        3,
+        1,
+        0,
+        0
+      ],
+      "PriceType": 103,
+      "RecipeDropChance": 1.0,
+      "Weight": 1.0
+    },
+    {
+      "Id": 600,
+      "AvailableType": 200,
+      "Rarity": 3,
+      "Name": "SelfHealing",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.35,
+      "CastTime": 0.35,
+      "ChannelSpell": false,
+      "TargetType": 1,
+      "ActionTypes": [
+        300,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 300,
+          "Type": 31,
+          "Value": 1.0
+        }
+      ],
+      "ElementsRecipe": [
+        2,
+        2,
+        4,
+        0,
+        0
+      ],
+      "PriceType": 104,
+      "RecipeDropChance": 1.0,
+      "Weight": 1.0
+    },
+    {
+      "Id": 700,
+      "AvailableType": 200,
+      "Rarity": 1,
+      "Name": "PoisonSpell",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.35,
+      "CastTime": 0.35,
+      "ChannelSpell": false,
+      "TargetType": 2,
+      "ActionTypes": [
+        400,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 400,
+          "Type": 10,
+          "Value": 5.0
+        },
+        {
+          "Action": 400,
+          "Type": 11,
+          "Value": 1.0
+        },
+        {
+          "Action": 400,
+          "Type": 30,
+          "Value": 5.0
+        }
+      ],
+      "ElementsRecipe": [
+        2,
+        4,
+        0,
+        0,
+        0
+      ],
+      "PriceType": 105,
+      "RecipeDropChance": 100.0,
+      "Weight": 100.0
+    },
+    {
+      "Id": 800,
+      "AvailableType": 100,
+      "Rarity": 2,
+      "Name": "DispelDebuff",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.35,
+      "CastTime": 0.35,
+      "ChannelSpell": false,
+      "TargetType": 1,
+      "ActionTypes": [
+        500,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [],
+      "ElementsRecipe": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "PriceType": 106,
+      "RecipeDropChance": 10.0,
+      "Weight": 10.0
+    },
+    {
+      "Id": 900,
+      "AvailableType": 200,
+      "Rarity": 2,
+      "Name": "MirrorSpell",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.35,
+      "CastTime": 0.35,
+      "ChannelSpell": false,
+      "TargetType": 1,
+      "ActionTypes": [
+        600,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 800,
+          "Type": 10,
+          "Value": 3.0
+        }
+      ],
+      "ElementsRecipe": [
+        4,
+        2,
+        2,
+        0,
+        0
+      ],
+      "PriceType": 107,
+      "RecipeDropChance": 10.0,
+      "Weight": 10.0
+    },
+    {
+      "Id": 1000,
+      "AvailableType": 500,
+      "Rarity": 1,
+      "Name": "MassHealing",
+      "Description": "Deal many damague",
+      "TargetsNumber": 3,
+      "FlyTime": 0.35,
+      "CastTime": 0.35,
+      "ChannelSpell": false,
+      "TargetType": 3,
+      "ActionTypes": [
+        300,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 300,
+          "Type": 31,
+          "Value": 10.0
+        }
+      ],
+      "ElementsRecipe": [
+        2,
+        3,
+        0,
+        0,
+        0
+      ],
+      "PriceType": 108,
+      "RecipeDropChance": 100.0,
+      "Weight": 100.0
+    },
+    {
+      "Id": 1200,
+      "AvailableType": 500,
+      "Rarity": 2,
+      "Name": "StoneStun",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.35,
+      "CastTime": 0.35,
+      "ChannelSpell": false,
+      "TargetType": 2,
+      "ActionTypes": [
+        800,
+        200,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 800,
+          "Type": 10,
+          "Value": 2.0
+        }
+      ],
+      "ElementsRecipe": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "PriceType": 109,
+      "RecipeDropChance": 10.0,
+      "Weight": 10.0
+    },
+    {
+      "Id": 1900,
+      "AvailableType": 200,
+      "Rarity": 2,
+      "Name": "ArmorBuffSpell",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.36,
+      "CastTime": 0.36,
+      "ChannelSpell": false,
+      "TargetType": 1,
+      "ActionTypes": [
+        1100,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 1100,
+          "Type": 10,
+          "Value": 5.0
+        },
+        {
+          "Action": 1100,
+          "Type": 60,
+          "Value": 0.5
+        }
+      ],
+      "ElementsRecipe": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "PriceType": 110,
+      "RecipeDropChance": 10.0,
+      "Weight": 10.0
+    },
+    {
+      "Id": 1300,
+      "AvailableType": 200,
+      "Rarity": 1,
+      "Name": "ReturnDamageSpell",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.37,
+      "CastTime": 0.37,
+      "ChannelSpell": false,
+      "TargetType": 1,
+      "ActionTypes": [
+        1200,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 1200,
+          "Type": 10,
+          "Value": 5.0
+        }
+      ],
+      "ElementsRecipe": [
+        4,
+        1,
+        0,
+        0,
+        0
+      ],
+      "PriceType": 111,
+      "RecipeDropChance": 100.0,
+      "Weight": 100.0
+    },
+    {
+      "Id": 1500,
+      "AvailableType": 200,
+      "Rarity": 2,
+      "Name": "TemporaryHealthSpell",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.38,
+      "CastTime": 0.38,
+      "ChannelSpell": false,
+      "TargetType": 1,
+      "ActionTypes": [
+        1300,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 1300,
+          "Type": 32,
+          "Value": 5.0
+        },
+        {
+          "Action": 1300,
+          "Type": 10,
+          "Value": 20.0
+        }
+      ],
+      "ElementsRecipe": [
+        2,
+        4,
+        2,
+        0,
+        0
+      ],
+      "PriceType": 112,
+      "RecipeDropChance": 10.0,
+      "Weight": 10.0
+    },
+    {
+      "Id": 1600,
+      "AvailableType": 200,
+      "Rarity": 3,
+      "Name": "BombSpell",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 1.0,
+      "CastTime": 1.0,
+      "ChannelSpell": false,
+      "TargetType": 2,
+      "ActionTypes": [
+        1400,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 1400,
+          "Type": 30,
+          "Value": 1.0
+        },
+        {
+          "Action": 1400,
+          "Type": 10,
+          "Value": 1.9
+        }
+      ],
+      "ElementsRecipe": [
+        1,
+        4,
+        3,
+        0,
+        0
+      ],
+      "PriceType": 113,
+      "RecipeDropChance": 1.0,
+      "Weight": 1.0
+    },
+    {
+      "Id": 1700,
+      "AvailableType": 200,
+      "Rarity": 2,
+      "Name": "InvisibilitySpell",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.4,
+      "CastTime": 0.4,
+      "ChannelSpell": false,
+      "TargetType": 1,
+      "ActionTypes": [
+        1500,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 1500,
+          "Type": 10,
+          "Value": 3.0
+        }
+      ],
+      "ElementsRecipe": [
+        3,
+        2,
+        3,
+        0,
+        0
+      ],
+      "PriceType": 114,
+      "RecipeDropChance": 10.0,
+      "Weight": 10.0
+    },
+    {
+      "Id": 1800,
+      "AvailableType": 200,
+      "Rarity": 1,
+      "Name": "DurationCurseSpell",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.41,
+      "CastTime": 0.41,
+      "ChannelSpell": false,
+      "TargetType": 2,
+      "ActionTypes": [
+        1600,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 1600,
+          "Type": 10,
+          "Value": 5.0
+        },
+        {
+          "Action": 1600,
+          "Type": 62,
+          "Value": 0.25
+        }
+      ],
+      "ElementsRecipe": [
+        4,
+        1,
+        2,
+        0,
+        0
+      ],
+      "PriceType": 115,
+      "RecipeDropChance": 100.0,
+      "Weight": 100.0
+    },
+    {
+      "Id": 2000,
+      "AvailableType": 200,
+      "Rarity": 1,
+      "Name": "ArmorPearceSpell",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 0.5,
+      "CastTime": 0.5,
+      "ChannelSpell": false,
+      "TargetType": 2,
+      "ActionTypes": [
+        700,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 700,
+          "Type": 10,
+          "Value": 10.0
+        },
+        {
+          "Action": 700,
+          "Type": 62,
+          "Value": 0.5
+        }
+      ],
+      "ElementsRecipe": [
+        4,
+        4,
+        1,
+        0,
+        0
+      ],
+      "PriceType": 116,
+      "RecipeDropChance": 100.0,
+      "Weight": 100.0
+    },
+    {
+      "Id": 100,
+      "AvailableType": 200,
+      "Rarity": 1,
+      "Name": "EarthQuake",
+      "Description": "Deal many damague",
+      "TargetsNumber": 3,
+      "FlyTime": 0.35,
+      "CastTime": 0.35,
+      "ChannelSpell": false,
+      "TargetType": 2,
+      "ActionTypes": [
+        800,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 800,
+          "Type": 30,
+          "Value": 0.7
+        }
+      ],
+      "ElementsRecipe": [
+        4,
+        4,
+        3,
+        0,
+        0
+      ],
+      "PriceType": 119,
+      "RecipeDropChance": 100.0,
+      "Weight": 100.0
+    },
+    {
+      "Id": 2200,
+      "AvailableType": 1,
+      "Rarity": 1,
+      "Name": "ChannelFireStorm",
+      "Description": "Deal many damague",
+      "TargetsNumber": 0,
+      "FlyTime": 5.0,
+      "CastTime": 2.0,
+      "ChannelSpell": true,
+      "TargetType": 2,
+      "ActionTypes": [
+        800,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 800,
+          "Type": 30,
+          "Value": 1.0
+        }
+      ],
+      "ElementsRecipe": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "PriceType": 117,
+      "RecipeDropChance": 100.0,
+      "Weight": 100.0
+    },
+    {
+      "Id": 2201,
+      "AvailableType": 1,
+      "Rarity": 1,
+      "Name": "ChannelMeteorite",
+      "Description": "Deal many damague",
+      "TargetsNumber": 1,
+      "FlyTime": 1.0,
+      "CastTime": 1.0,
+      "ChannelSpell": true,
+      "TargetType": 2,
+      "ActionTypes": [
+        800,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Stats": [
+        {
+          "Action": 800,
+          "Type": 30,
+          "Value": 1.0
+        }
+      ],
+      "ElementsRecipe": [
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "PriceType": 118,
+      "RecipeDropChance": 100.0,
+      "Weight": 100.0
+    }
+  ],
+  "EnemyList": [
+    {
+      "Id": 100,
+      "Name": "Wooden Dummy",
+      "Description": "Wooden Dummy",
+      "Reward": 100.0,
+      "Health": 1000.0,
+      "Damage": 1.0,
+      "AttackCooldown": 3.0,
+      "AttackDuration": 0.5,
+      "SpellCooldown": 6.0,
+      "AvailableSpells": [
+        {
+          "SpellId": 500,
+          "SpellStats": [
+            {
+              "Action": 0,
+              "Type": 20,
+              "Value": 5.0
+            }
+          ],
+          "UseByTrigger": false
+        }
+      ],
+      "RuneResists": [
+        {
+          "Type": 3,
+          "Value": 0.5
+        }
+      ],
+      "RuneWeakness": [
+        {
+          "Type": 4,
+          "Value": 0.5
+        }
+      ],
+      "AbilitiesList": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 400,
+      "Name": "Mushroom V. 1",
+      "Description": "Mushroom V. 1",
+      "Reward": 100.0,
+      "Health": 350.0,
+      "Damage": 10.0,
+      "AttackCooldown": 2.0,
+      "AttackDuration": 0.5,
+      "SpellCooldown": 10.0,
+      "AvailableSpells": [],
+      "RuneResists": [],
+      "RuneWeakness": [],
+      "AbilitiesList": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 700,
+      "Name": "Skaven V. 1",
+      "Description": "Skaven V. 1",
+      "Reward": 100.0,
+      "Health": 700.0,
+      "Damage": 15.0,
+      "AttackCooldown": 2.0,
+      "AttackDuration": 0.5,
+      "SpellCooldown": 6.0,
+      "AvailableSpells": [
+        {
+          "SpellId": 700,
+          "SpellStats": [
+            {
+              "Action": 400,
+              "Type": 10,
+              "Value": 3.0
+            },
+            {
+              "Action": 400,
+              "Type": 11,
+              "Value": 1.0
+            },
+            {
+              "Action": 400,
+              "Type": 21,
+              "Value": 4.0
+            }
+          ],
+          "UseByTrigger": false
+        }
+      ],
+      "RuneResists": [],
+      "RuneWeakness": [],
+      "AbilitiesList": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 1000,
+      "Name": "Ent",
+      "Description": "Ent",
+      "Reward": 100.0,
+      "Health": 1400.0,
+      "Damage": 20.0,
+      "AttackCooldown": 4.0,
+      "AttackDuration": 0.5,
+      "SpellCooldown": 5.5,
+      "AvailableSpells": [
+        {
+          "SpellId": 1000,
+          "SpellStats": [
+            {
+              "Action": 300,
+              "Type": 100,
+              "Value": 20.0
+            }
+          ],
+          "UseByTrigger": false
+        },
+        {
+          "SpellId": 2000,
+          "SpellStats": [
+            {
+              "Action": 700,
+              "Type": 10,
+              "Value": 5.0
+            },
+            {
+              "Action": 700,
+              "Type": 61,
+              "Value": 0.5
+            }
+          ],
+          "UseByTrigger": true
+        },
+        {
+          "SpellId": 2100,
+          "SpellStats": [
+            {
+              "Action": 501,
+              "Type": 10,
+              "Value": 5.0
+            }
+          ],
+          "UseByTrigger": true
+        }
+      ],
+      "RuneResists": [],
+      "RuneWeakness": [],
+      "AbilitiesList": [
+        70,
+        50,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 1100,
+      "Name": "Vraska",
+      "Description": "Vraska",
+      "Reward": 100.0,
+      "Health": 5000.0,
+      "Damage": 25.0,
+      "AttackCooldown": 3.0,
+      "AttackDuration": 0.5,
+      "SpellCooldown": 8.5,
+      "AvailableSpells": [
+        {
+          "SpellId": 1200,
+          "SpellStats": [
+            {
+              "Action": 200,
+              "Type": 10,
+              "Value": 2.0
+            },
+            {
+              "Action": 800,
+              "Type": 20,
+              "Value": 30.0
+            }
+          ],
+          "UseByTrigger": false
+        },
+        {
+          "SpellId": 600,
+          "SpellStats": [
+            {
+              "Action": 300,
+              "Type": 100,
+              "Value": 1.0
+            }
+          ],
+          "UseByTrigger": true
+        },
+        {
+          "SpellId": 2000,
+          "SpellStats": [
+            {
+              "Action": 700,
+              "Type": 10,
+              "Value": 1.0
+            },
+            {
+              "Action": 700,
+              "Type": 61,
+              "Value": 1.0
+            }
+          ],
+          "UseByTrigger": true
+        },
+        {
+          "SpellId": 900,
+          "SpellStats": [
+            {
+              "Action": 600,
+              "Type": 10,
+              "Value": 1.0
+            }
+          ],
+          "UseByTrigger": true
+        },
+        {
+          "SpellId": 2100,
+          "SpellStats": [
+            {
+              "Action": 501,
+              "Type": 10,
+              "Value": 1.0
+            }
+          ],
+          "UseByTrigger": true
+        }
+      ],
+      "RuneResists": [],
+      "RuneWeakness": [],
+      "AbilitiesList": [
+        40,
+        70,
+        60,
+        50,
+        0
+      ]
+    },
+    {
+      "Id": 200,
+      "Name": "Stell Dummy",
+      "Description": "Stell Dummy",
+      "Reward": 100.0,
+      "Health": 2.0,
+      "Damage": 6.0,
+      "AttackCooldown": 1.5,
+      "AttackDuration": 0.5,
+      "SpellCooldown": 5.0,
+      "AvailableSpells": [
+        {
+          "SpellId": 500,
+          "SpellStats": [
+            {
+              "Action": 800,
+              "Type": 20,
+              "Value": 500.0
+            }
+          ],
+          "UseByTrigger": false
+        },
+        {
+          "SpellId": 1000,
+          "SpellStats": [
+            {
+              "Action": 300,
+              "Type": 100,
+              "Value": 60.0
+            }
+          ],
+          "UseByTrigger": false
+        }
+      ],
+      "RuneResists": [
+        {
+          "Type": 1,
+          "Value": 0.5
+        }
+      ],
+      "RuneWeakness": [
+        {
+          "Type": 4,
+          "Value": 0.5
+        }
+      ],
+      "AbilitiesList": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 300,
+      "Name": "Golden Dummy",
+      "Description": "Golden Dummy",
+      "Reward": 100.0,
+      "Health": 100.0,
+      "Damage": 5.0,
+      "AttackCooldown": 2.0,
+      "AttackDuration": 0.5,
+      "SpellCooldown": 4.0,
+      "AvailableSpells": [
+        {
+          "SpellId": 700,
+          "SpellStats": [
+            {
+              "Action": 0,
+              "Type": 21,
+              "Value": 15.0
+            },
+            {
+              "Action": 0,
+              "Type": 10,
+              "Value": 10.0
+            },
+            {
+              "Action": 0,
+              "Type": 11,
+              "Value": 1.0
+            }
+          ],
+          "UseByTrigger": false
+        },
+        {
+          "SpellId": 1200,
+          "SpellStats": [
+            {
+              "Action": 0,
+              "Type": 10,
+              "Value": 5.0
+            },
+            {
+              "Action": 0,
+              "Type": 61,
+              "Value": 0.5
+            }
+          ],
+          "UseByTrigger": false
+        }
+      ],
+      "RuneResists": [
+        {
+          "Type": 2,
+          "Value": 0.5
+        },
+        {
+          "Type": 1,
+          "Value": 0.5
+        },
+        {
+          "Type": 3,
+          "Value": 0.5
+        },
+        {
+          "Type": 4,
+          "Value": 0.5
+        }
+      ],
+      "RuneWeakness": [],
+      "AbilitiesList": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 1200,
+      "Name": "RageEnemy",
+      "Description": "RageEnemy",
+      "Reward": 100.0,
+      "Health": 1000.0,
+      "Damage": 20.0,
+      "AttackCooldown": 2.0,
+      "AttackDuration": 0.5,
+      "SpellCooldown": 4.0,
+      "AvailableSpells": [
+        {
+          "SpellId": 1000,
+          "SpellStats": [
+            {
+              "Action": 0,
+              "Type": 100,
+              "Value": 20.0
+            }
+          ],
+          "UseByTrigger": true
+        }
+      ],
+      "RuneResists": [],
+      "RuneWeakness": [],
+      "AbilitiesList": [
+        30,
+        40,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 1300,
+      "Name": "Thief",
+      "Description": "Thief",
+      "Reward": 100.0,
+      "Health": 2000.0,
+      "Damage": 20.0,
+      "AttackCooldown": 2.0,
+      "AttackDuration": 0.5,
+      "SpellCooldown": 4.0,
+      "AvailableSpells": [],
+      "RuneResists": [],
+      "RuneWeakness": [],
+      "AbilitiesList": [
+        20,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 1400,
+      "Name": "WallEnemy",
+      "Description": "WallEnemy",
+      "Reward": 100.0,
+      "Health": 2000.0,
+      "Damage": 10.0,
+      "AttackCooldown": 2.0,
+      "AttackDuration": 0.5,
+      "SpellCooldown": 4.0,
+      "AvailableSpells": [
+        {
+          "SpellId": 900,
+          "SpellStats": [
+            {
+              "Action": 600,
+              "Type": 10,
+              "Value": 3.0
+            }
+          ],
+          "UseByTrigger": true
+        }
+      ],
+      "RuneResists": [],
+      "RuneWeakness": [],
+      "AbilitiesList": [
+        10,
+        60,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "LocationsList": [
+    {
+      "LocationId": 0,
+      "Name": "Swamp",
+      "Description": "Swamp",
+      "AvailableFromStart": true,
+      "Levels": [
+        {
+          "AvailableFromStart": true,
+          "DifficultyMultipliers": [
+            {
+              "Difficulty": 1,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RewardMultiplier": 0.5,
+              "CompleteCurrencyCount": 100,
+              "CompleteCurrencyType": 1
+            },
+            {
+              "Difficulty": 2,
+              "HealthMultiplier": 1.2,
+              "DamageMultiplier": 1.2,
+              "RewardMultiplier": 0.75,
+              "CompleteCurrencyCount": 500,
+              "CompleteCurrencyType": 1
+            },
+            {
+              "Difficulty": 3,
+              "HealthMultiplier": 1.7,
+              "DamageMultiplier": 1.7,
+              "RewardMultiplier": 1.0,
+              "CompleteCurrencyCount": 1000,
+              "CompleteCurrencyType": 1
+            }
+          ],
+          "RewardRooms": [
+            {
+              "Id": 5,
+              "Difficulty": 1,
+              "LootBoxType": 1
+            },
+            {
+              "Id": 5,
+              "Difficulty": 2,
+              "LootBoxType": 10
+            },
+            {
+              "Id": 5,
+              "Difficulty": 3,
+              "LootBoxType": 1
+            }
+          ],
+          "RoomsList": [
+            {
+              "Id": 1,
+              "HealthMultiplier": 0.5,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                400,
+                0,
+                400
+              ]
+            },
+            {
+              "Id": 2,
+              "HealthMultiplier": 0.5,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                400,
+                400,
+                700
+              ]
+            },
+            {
+              "Id": 3,
+              "HealthMultiplier": 0.5,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                400,
+                700,
+                700
+              ]
+            },
+            {
+              "Id": 4,
+              "HealthMultiplier": 0.5,
+              "DamageMultiplier": 1.0,
+              "RoomType": 20,
+              "EnemiesTypes": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "Id": 5,
+              "HealthMultiplier": 0.5,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                700,
+                700,
+                1000
+              ]
+            }
+          ]
+        },
+        {
+          "AvailableFromStart": false,
+          "DifficultyMultipliers": [
+            {
+              "Difficulty": 1,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RewardMultiplier": 1.0,
+              "CompleteCurrencyCount": 100,
+              "CompleteCurrencyType": 1
+            },
+            {
+              "Difficulty": 2,
+              "HealthMultiplier": 1.2,
+              "DamageMultiplier": 1.2,
+              "RewardMultiplier": 1.2,
+              "CompleteCurrencyCount": 500,
+              "CompleteCurrencyType": 1
+            },
+            {
+              "Difficulty": 3,
+              "HealthMultiplier": 1.7,
+              "DamageMultiplier": 1.7,
+              "RewardMultiplier": 1.5,
+              "CompleteCurrencyCount": 1000,
+              "CompleteCurrencyType": 1
+            }
+          ],
+          "RewardRooms": [
+            {
+              "Id": 5,
+              "Difficulty": 1,
+              "LootBoxType": 10
+            },
+            {
+              "Id": 10,
+              "Difficulty": 1,
+              "LootBoxType": 1
+            },
+            {
+              "Id": 5,
+              "Difficulty": 2,
+              "LootBoxType": 10
+            },
+            {
+              "Id": 10,
+              "Difficulty": 2,
+              "LootBoxType": 1
+            },
+            {
+              "Id": 5,
+              "Difficulty": 3,
+              "LootBoxType": 10
+            },
+            {
+              "Id": 10,
+              "Difficulty": 3,
+              "LootBoxType": 1
+            }
+          ],
+          "RoomsList": [
+            {
+              "Id": 1,
+              "HealthMultiplier": 0.75,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                400,
+                700,
+                700
+              ]
+            },
+            {
+              "Id": 2,
+              "HealthMultiplier": 0.75,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                700,
+                700,
+                700
+              ]
+            },
+            {
+              "Id": 3,
+              "HealthMultiplier": 0.75,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                700,
+                700,
+                1000
+              ]
+            },
+            {
+              "Id": 4,
+              "HealthMultiplier": 0.75,
+              "DamageMultiplier": 1.0,
+              "RoomType": 20,
+              "EnemiesTypes": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "Id": 5,
+              "HealthMultiplier": 0.75,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                1400,
+                0,
+                700
+              ]
+            },
+            {
+              "Id": 6,
+              "HealthMultiplier": 0.75,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                1400,
+                400,
+                700
+              ]
+            },
+            {
+              "Id": 7,
+              "HealthMultiplier": 0.75,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                1400,
+                700,
+                700
+              ]
+            },
+            {
+              "Id": 8,
+              "HealthMultiplier": 0.75,
+              "DamageMultiplier": 1.0,
+              "RoomType": 20,
+              "EnemiesTypes": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "Id": 9,
+              "HealthMultiplier": 0.75,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                1400,
+                700,
+                1000
+              ]
+            },
+            {
+              "Id": 10,
+              "HealthMultiplier": 0.75,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                0,
+                0,
+                1100
+              ]
+            }
+          ]
+        },
+        {
+          "AvailableFromStart": false,
+          "DifficultyMultipliers": [
+            {
+              "Difficulty": 1,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RewardMultiplier": 1.5,
+              "CompleteCurrencyCount": 100,
+              "CompleteCurrencyType": 1
+            },
+            {
+              "Difficulty": 2,
+              "HealthMultiplier": 1.2,
+              "DamageMultiplier": 1.2,
+              "RewardMultiplier": 1.7,
+              "CompleteCurrencyCount": 500,
+              "CompleteCurrencyType": 1
+            },
+            {
+              "Difficulty": 3,
+              "HealthMultiplier": 1.7,
+              "DamageMultiplier": 1.7,
+              "RewardMultiplier": 2.0,
+              "CompleteCurrencyCount": 1000,
+              "CompleteCurrencyType": 1
+            }
+          ],
+          "RewardRooms": [
+            {
+              "Id": 5,
+              "Difficulty": 1,
+              "LootBoxType": 10
+            },
+            {
+              "Id": 10,
+              "Difficulty": 1,
+              "LootBoxType": 1
+            },
+            {
+              "Id": 5,
+              "Difficulty": 2,
+              "LootBoxType": 10
+            },
+            {
+              "Id": 10,
+              "Difficulty": 2,
+              "LootBoxType": 1
+            },
+            {
+              "Id": 5,
+              "Difficulty": 3,
+              "LootBoxType": 10
+            },
+            {
+              "Id": 10,
+              "Difficulty": 3,
+              "LootBoxType": 1
+            }
+          ],
+          "RoomsList": [
+            {
+              "Id": 1,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                1400,
+                0,
+                700
+              ]
+            },
+            {
+              "Id": 2,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                1400,
+                400,
+                700
+              ]
+            },
+            {
+              "Id": 3,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                1400,
+                700,
+                700
+              ]
+            },
+            {
+              "Id": 4,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RoomType": 20,
+              "EnemiesTypes": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "Id": 5,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                400,
+                1200,
+                400
+              ]
+            },
+            {
+              "Id": 6,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                400,
+                1200,
+                700
+              ]
+            },
+            {
+              "Id": 7,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                1400,
+                1200,
+                700
+              ]
+            },
+            {
+              "Id": 8,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RoomType": 20,
+              "EnemiesTypes": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "Id": 9,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                1400,
+                1200,
+                1000
+              ]
+            },
+            {
+              "Id": 10,
+              "HealthMultiplier": 1.0,
+              "DamageMultiplier": 1.0,
+              "RoomType": 10,
+              "EnemiesTypes": [
+                0,
+                0,
+                1100
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "LocationId": 1,
+      "Name": "Graveyard",
+      "Description": "Graveyard",
+      "AvailableFromStart": false,
+      "Levels": [
+        {
+          "AvailableFromStart": false,
+          "DifficultyMultipliers": [],
+          "RewardRooms": [],
+          "RoomsList": []
+        }
+      ]
+    }
+  ]
+}

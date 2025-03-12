@@ -1,0 +1,14 @@
+{
+    "name": "ru.leopotam.ai.bt",
+    "author": "Leopotam",
+    "displayName": "AI BT",
+    "description": "AI BT - реализация BehaviourTree.",
+    "unity": "2021.3",
+    "version": "2025.1.14",
+    "keywords": [
+        "ai",
+        "bt",
+        "performance"
+    ],
+    "dependencies": {}
+}

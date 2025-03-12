@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b782aa9d01412c9219321f0f3d16a9, type: 3}
+  m_Name: PrefabHub
+  m_EditorClassIdentifier: 
+  _enemyPrefabs: []
+  <PlayerView>k__BackingField: {fileID: 0}
+  <FlyItemView>k__BackingField: {fileID: 785183898111833107, guid: 322df0370e9de8445a70a0a6de78e704,
+    type: 3}
+  <CurrencyElementPlankView>k__BackingField: {fileID: 1758336374045833544, guid: 75074eddb52f226468ef526317c974d5,
+    type: 3}
+  <DamageViewPrefab>k__BackingField: {fileID: 2389863564210476890, guid: dff01a9cc931efb439fe8c6788b5e341,
+    type: 3}
+  <LootBoxes>k__BackingField:
+  - {fileID: 4548183235271242687, guid: 90ec3174fd88b0b47b90dde7cdacb289, type: 3}
+  - {fileID: 4518306429798617334, guid: 43cb9857605a58143ae1b3267f9f91f7, type: 3}
