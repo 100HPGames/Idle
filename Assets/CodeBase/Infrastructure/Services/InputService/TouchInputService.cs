@@ -13,10 +13,8 @@ namespace CodeBase.InputService
 
 		[DI] private Messenger _messenger;
 
-		private TouchPhase _touchPhase;
 		private Vector3 _touchUpValue;
 		private Vector3 _touchDownValue;
-		private Vector3 _touchMoveValue;
 
 		private bool _isLockedInput;
 		private float _touchEndTimeValue;
@@ -25,7 +23,9 @@ namespace CodeBase.InputService
 		public Vector3 TouchDownValue => _touchDownValue;
 		public float TouchEndTimeValue => _touchEndTimeValue;
 		public float TouchStartTimeValue => _touchStartTimeValue;
-		
+		public TouchPhase Phase { get; private set; }
+		public Vector3 TouchMoveValue { get; private set; }
+
 		public void Init(IProtoSystems systems)
 		{
 			_isLockedInput = false;
@@ -87,18 +87,18 @@ namespace CodeBase.InputService
 		{
 			_touchDownValue = Input.mousePosition;
 			_touchStartTimeValue = Time.time;
-			_touchPhase = TouchPhase.Began;
+			Phase = TouchPhase.Began;
 		}
 
 		private void Moved()
 		{
-			_touchPhase = TouchPhase.Moved;
-			_touchMoveValue = Input.mousePosition;
+			Phase = TouchPhase.Moved;
+			TouchMoveValue = Input.mousePosition;
 		}
 
 		private void Ended()
 		{
-			_touchPhase = TouchPhase.Ended;
+			Phase = TouchPhase.Ended;
 			_touchUpValue = Input.mousePosition;
 			_touchEndTimeValue = Time.time;
 			OnTouchedEnd?.Invoke();

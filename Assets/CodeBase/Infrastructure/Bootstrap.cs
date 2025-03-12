@@ -20,7 +20,6 @@ namespace CodeBase.Infrastructure
 		[SerializeField] private LoadingCurtain _loadingCurtain;
 		[SerializeField] private TouchInputService _touchInputService;
 		[SerializeField] private SwipeInputService _swipeInputService;
-		[SerializeField] private bool _wildMagick;
 
 		private ServiceLocator _serviceLocator;
 

@@ -55,7 +55,11 @@ namespace CodeBase.UI.Mediators
         
         private void Awake() => _endButton.OnClick += ClickEnd;
 
-        private void OnDestroy() => _endButton.OnClick -= ClickEnd;
+        private void OnDestroy()
+        {
+            _endButton.OnClick -= ClickEnd;
+            OnCleanUp?.Invoke(this);
+        }
 
         private void ClickEnd() => OnClickEnd?.Invoke();
     }

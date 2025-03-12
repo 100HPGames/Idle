@@ -12,7 +12,7 @@ using static CodeBase.Tools.Helpers.CanvasGroupExtension;
 
 namespace CodeBase.UI.Mediators
 {
-	public class ShopMediator : MonoBehaviour, IMediator, INotificationUsed
+	public class ShopMediator : MonoBehaviour, IMediator, INotificationUser
 	{
 		public event Action<IMediator> OnCleanUp;
 		public event Action<WindowType, bool> OnUpdateNotification;
@@ -75,6 +75,7 @@ namespace CodeBase.UI.Mediators
 		{
 			_lootBoxShopView.OnBuyLootBox -= AddNewLootBox;
 			_softCurrencyElementView.OnBuyCurrency -= TryPurchaseSoftCurrency;
+			OnCleanUp?.Invoke(this);
 		}
 
 		private void UpdateShopElements()
@@ -87,6 +88,7 @@ namespace CodeBase.UI.Mediators
 		{
 			_purchaseService.PurchaseLootBox(priceTuple, lootBoxType);
 			_lootBoxShopView.UpdatePlanks();
+			OnUpdateNotification?.Invoke(WindowType.Shop, false);
 		}
 
 		private void TryPurchaseSoftCurrency((CurrencyType addedCurrencyType, float addedCurrencyValue) addedTuple,

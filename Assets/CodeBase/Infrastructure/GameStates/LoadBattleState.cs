@@ -16,7 +16,7 @@ namespace CodeBase.Infrastructure.GameStates
 			_loadingCurtain = loadingCurtain;
 		}
 
-		public async void OnEnter()
+		public void OnEnter()
 		{
 			_loadingCurtain.Show();
 			Complete = true;

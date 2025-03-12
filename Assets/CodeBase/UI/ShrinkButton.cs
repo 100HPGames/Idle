@@ -29,7 +29,6 @@ namespace UI.MainMenu
 		[SerializeField] private float _timer;
 		[Range(1, 2), SerializeField] private float _expandMultiplier;
 		[SerializeField] private bool _hideTextWhenShrink;
-		[SerializeField] private float _showDuration = 0.25f;
 
 		private bool _isInteractable;
 		private bool _isSelected;

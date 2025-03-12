@@ -3,7 +3,7 @@ using UI.MainMenu;
 
 namespace CodeBase.UI.NotificationFolder
 {
-	public interface INotificationUsed
+	public interface INotificationUser
 	{
 		public event Action<WindowType, bool> OnUpdateNotification;
 	}

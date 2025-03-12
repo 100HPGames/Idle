@@ -16,7 +16,7 @@ namespace CodeBase.Infrastructure.GameStates
 		private readonly LoadingCurtain _loadingCurtain;
 		private readonly MediatorFactory _mediatorFactory;
 		private readonly CurrencyMediator _currencyMediator;
-		private readonly List<INotificationUsed> _mediators = new();
+		private readonly List<INotificationUser> _mediators = new();
 		
 		private ShopMediator _shopMediator;
 		private MainMenuMediator _mainMenuMediator;
