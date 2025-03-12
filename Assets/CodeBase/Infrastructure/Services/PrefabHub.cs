@@ -21,7 +21,7 @@ namespace CodeBase.Infrastructure
 		[field: SerializeField] public DamageView DamageViewPrefab { get; set; }
 		[field: SerializeField] public List<LootBoxOpenView> LootBoxes { get; set; }
 		
-		public EnemyAbstract GetEnemyView(EnemyId enemyId)
+		public EnemyView GetEnemyView(EnemyId enemyId)
 		{
 			var prefab = _enemyPrefabs.FirstOrDefault(x => x.Id == enemyId);
 			return prefab?.View ?? _enemyPrefabs[0].View;
@@ -32,6 +32,6 @@ namespace CodeBase.Infrastructure
 	public class EnemyPrefab
 	{
 		public EnemyId Id;
-		public EnemyAbstract View;
+		public EnemyView View;
 	}
 }

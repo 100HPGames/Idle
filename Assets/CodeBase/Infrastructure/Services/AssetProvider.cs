@@ -37,7 +37,7 @@ namespace CodeBase.Infrastructure
 		public async Task UnloadSceneAsync(string sceneName) => await SceneManager.UnloadSceneAsync(sceneName);
 		public FlyItemView GetFlyItemView() => _prefabHub.FlyItemView;
 		public PlayerView GetPlayerView() => _prefabHub.PlayerView;
-		public EnemyAbstract GetEnemyView(EnemyId enemyType) => _prefabHub.GetEnemyView(enemyType);
+		public EnemyView GetEnemyView(EnemyId enemyType) => _prefabHub.GetEnemyView(enemyType);
 		public DamageView GetDamageViewPrefab() => _prefabHub.DamageViewPrefab;
 		public CurrencyElementPlankView GetCurrencyElementPlankView() => _prefabHub.CurrencyElementPlankView;
 		public LootBoxOpenView GetLootBoxPrefab(LootBoxType lootBoxType) => _prefabHub.LootBoxes.FirstOrDefault(v => v.LootBoxType == lootBoxType);
