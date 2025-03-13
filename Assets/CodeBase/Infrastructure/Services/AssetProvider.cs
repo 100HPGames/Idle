@@ -5,15 +5,14 @@ using CodeBase.MonoBehaivours;
 using CodeBase.Tools;
 using CodeBase.Tools.StaticDataLoader;
 using CodeBase.UI.FlyService;
-using CodeBase.UI.LootBoxShop;
-using CodeBase.UI.Shop;
+using CodeBase.UI.LootBoxes;
+using CodeBase.UI.MainMenu.Shop.CurrencyShop;
 using Cysharp.Threading.Tasks;
-using UI.ChestUI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
 
-namespace CodeBase.Infrastructure
+namespace CodeBase.Infrastructure.Services
 {
 	public class AssetProvider : IService
 	{

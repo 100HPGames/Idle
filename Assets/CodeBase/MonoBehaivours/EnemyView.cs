@@ -1,5 +1,4 @@
-﻿using CodeBase.Tools.StaticDataLoader;
-using CodeBase.UI.ProgressBars;
+﻿using CodeBase.UI.ProgressBars;
 using UnityEngine;
 
 namespace CodeBase.MonoBehaivours

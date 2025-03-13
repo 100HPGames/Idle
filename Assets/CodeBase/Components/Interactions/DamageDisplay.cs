@@ -1,7 +1,7 @@
 using CodeBase.MonoBehaivours;
 using UnityEngine;
 
-namespace CodeBase.Components
+namespace CodeBase.Components.Interactions
 {
     public struct DamageDisplay
     {

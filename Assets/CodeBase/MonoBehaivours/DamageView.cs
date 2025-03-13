@@ -1,4 +1,5 @@
 using CodeBase.Components;
+using CodeBase.Components.Interactions;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;

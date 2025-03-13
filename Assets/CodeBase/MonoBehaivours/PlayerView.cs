@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CodeBase.Infrastructure
+namespace CodeBase.MonoBehaivours
 {
     public class PlayerView : MonoBehaviour
     {

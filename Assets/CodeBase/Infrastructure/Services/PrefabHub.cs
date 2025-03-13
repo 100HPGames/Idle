@@ -4,11 +4,11 @@ using System.Linq;
 using CodeBase.MonoBehaivours;
 using CodeBase.Tools.StaticDataLoader;
 using CodeBase.UI.FlyService;
-using CodeBase.UI.Shop;
-using UI.ChestUI;
+using CodeBase.UI.LootBoxes;
+using CodeBase.UI.MainMenu.Shop.CurrencyShop;
 using UnityEngine;
 
-namespace CodeBase.Infrastructure
+namespace CodeBase.Infrastructure.Services
 {
 	[CreateAssetMenu(menuName = "SO/PrefabHub", fileName = "PrefabHub")]
 	public class PrefabHub : ScriptableObject

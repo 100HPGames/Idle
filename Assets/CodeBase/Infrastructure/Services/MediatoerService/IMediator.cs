@@ -1,8 +1,7 @@
 ﻿using System;
-using UI.MainMenu;
 using UnityEngine;
 
-namespace CodeBase.Infrastructure
+namespace CodeBase.Infrastructure.Services.MediatoerService
 {
 	public interface IMediator
 	{

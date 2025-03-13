@@ -1,9 +1,7 @@
 ﻿using System;
-using CodeBase.Tools.StaticDataLoader;
-using CodeBase.UI.LootBoxShop;
-using MoneyHandler;
+using CodeBase.UI.Mediators;
 
-namespace _Tools
+namespace CodeBase.UI.LootBoxes
 {
 	[Serializable]
 	public class LootBoxDTO

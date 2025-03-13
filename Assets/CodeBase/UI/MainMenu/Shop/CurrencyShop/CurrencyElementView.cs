@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using CodeBase.Infrastructure;
+using CodeBase.Infrastructure.Services;
+using CodeBase.Tools.CurrencyHandler;
 using CodeBase.Tools.Helpers;
-using MoneyHandler;
+using CodeBase.UI.Mediators;
 using UnityEngine;
 
-namespace CodeBase.UI.Shop
+namespace CodeBase.UI.MainMenu.Shop.CurrencyShop
 {
 	public class CurrencyElementView : MonoBehaviour
 	{

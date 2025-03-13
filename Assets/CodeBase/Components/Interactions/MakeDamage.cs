@@ -1,6 +1,4 @@
-﻿using CodeBase.Tools.StaticDataLoader;
-
-namespace CodeBase.Components.Interactions
+﻿namespace CodeBase.Components.Interactions
 {
 	public struct MakeDamage
 	{

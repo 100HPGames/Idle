@@ -1,9 +1,8 @@
 using System.Collections.Generic;
-using CodeBase.Tools;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace AudioSystem
+namespace CodeBase.Tools.AudioPool.Scripts.AudioSystem
 {
     public class SoundHub : MonoBehaviour, IService
     {

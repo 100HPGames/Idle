@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace CodeBase.UI.Mediators
+namespace CodeBase.UI
 {
 	[RequireComponent(typeof(Button))]
     public class SimpleButton : MonoBehaviour

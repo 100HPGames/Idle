@@ -1,7 +1,6 @@
 ﻿using System;
-using UI.MainMenu;
 
-namespace CodeBase.UI.NotificationFolder
+namespace CodeBase.UI.Notifications
 {
 	public interface INotificationUser
 	{

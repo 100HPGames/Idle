@@ -2,7 +2,7 @@ using CodeBase.Tools;
 using CodeBase.Tools.Helpers;
 using UnityEngine;
 
-namespace CodeBase.Infrastructure
+namespace CodeBase.Infrastructure.Services
 {
     public class LoadingCurtain : MonoBehaviour, IService
     {

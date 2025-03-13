@@ -1,5 +1,5 @@
 using System;
-using CodeBase.UI.NotificationFolder;
+using CodeBase.UI.Notifications;
 using DG.Tweening;
 using DG.Tweening.Core;
 using DG.Tweening.Plugins.Options;
@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace UI.MainMenu
+namespace CodeBase.UI
 {
 	public class ShrinkButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 	{

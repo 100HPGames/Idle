@@ -1,9 +1,8 @@
 ﻿using System;
-using CodeBase.UI.LootBoxShop;
 using DG.Tweening;
 using UnityEngine;
 
-namespace UI.ChestUI
+namespace CodeBase.UI.LootBoxes
 {
 	public class LootBoxOpenView : MonoBehaviour
 	{

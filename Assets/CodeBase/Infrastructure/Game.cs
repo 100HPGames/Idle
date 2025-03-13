@@ -1,11 +1,12 @@
 ﻿using System.Threading.Tasks;
 using CodeBase.Infrastructure.GameStates;
+using CodeBase.Infrastructure.Services;
+using CodeBase.Infrastructure.Services.MediatoerService;
 using CodeBase.Tools;
 using CodeBase.Tools.StateMachine;
 using CodeBase.UI.FlyService;
+using CodeBase.UI.LootBoxes;
 using CodeBase.UI.Mediators;
-using MoneyHandler;
-using UI.ChestUI;
 using UnityEngine;
 
 namespace CodeBase.Infrastructure

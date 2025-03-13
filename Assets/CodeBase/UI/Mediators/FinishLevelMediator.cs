@@ -1,9 +1,11 @@
 using System;
 using CodeBase.Components.Interactions;
 using CodeBase.Infrastructure;
+using CodeBase.Infrastructure.Services.MediatoerService;
+using CodeBase.Tools.CurrencyHandler;
 using CodeBase.Tools.Helpers;
 using CodeBase.Tools.SimpleMessenger;
-using MoneyHandler;
+using CodeBase.UI.FinishedView;
 using UnityEngine;
 
 namespace CodeBase.UI.Mediators

@@ -1,8 +1,9 @@
+using CodeBase.UI.Mediators;
 using NaughtyAttributes;
 using UnityEditor;
 using UnityEngine;
 
-namespace MoneyHandler
+namespace CodeBase.Tools.CurrencyHandler
 {
 	[CreateAssetMenu(fileName = "New CurrencyData", menuName = "Currency Data")]
 	public class CurrencyData : ScriptableObject

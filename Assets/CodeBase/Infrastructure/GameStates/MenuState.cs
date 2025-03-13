@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
+using CodeBase.Infrastructure.Services;
+using CodeBase.Infrastructure.Services.MediatoerService;
 using CodeBase.Tools;
 using CodeBase.Tools.Helpers;
 using CodeBase.Tools.StateMachine;
+using CodeBase.UI;
 using CodeBase.UI.Mediators;
-using CodeBase.UI.NotificationFolder;
-using MoneyHandler;
-using UI.MainMenu;
+using CodeBase.UI.Notifications;
 
 namespace CodeBase.Infrastructure.GameStates
 {

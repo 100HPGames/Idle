@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace CodeBase.UI
+namespace CodeBase.UI.MainMenu.Shop
 {
     public class PlayerPlankView: MonoBehaviour
     {

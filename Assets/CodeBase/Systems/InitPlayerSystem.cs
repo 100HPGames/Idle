@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using CodeBase.Infrastructure;
+﻿using CodeBase.Components.States;
+using CodeBase.Infrastructure.Services;
 using CodeBase.Tools.SimpleMessenger;
-using CodeBase.Tools.StaticDataLoader;
 using Leopotam.EcsProto;
 using Leopotam.EcsProto.QoL;
-using MoneyHandler;
 using Object = UnityEngine.Object;
 
-namespace CodeBase.Systems.LevelsProgression
+namespace CodeBase.Systems
 {
 	public class InitPlayerSystem : IProtoInitSystem
 	{

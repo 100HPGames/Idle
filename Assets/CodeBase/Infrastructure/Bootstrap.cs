@@ -1,13 +1,16 @@
-﻿using CodeBase.InputService;
+﻿using CodeBase.Infrastructure.Services;
+using CodeBase.Infrastructure.Services.InputService;
+using CodeBase.Infrastructure.Services.MediatoerService;
+using CodeBase.Infrastructure.Services.SaveService;
 using CodeBase.Tools;
+using CodeBase.Tools.CurrencyHandler;
 using CodeBase.Tools.SimpleMessenger;
 using CodeBase.UI;
 using CodeBase.UI.FlyService;
+using CodeBase.UI.LootBoxes;
 using CodeBase.UI.Mediators;
-using CodeBase.UI.NotificationFolder;
+using CodeBase.UI.Notifications;
 using Cysharp.Threading.Tasks;
-using Loot;
-using MoneyHandler;
 using UnityEngine;
 
 namespace CodeBase.Infrastructure

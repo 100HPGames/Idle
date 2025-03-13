@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using MoneyHandler;
+using CodeBase.UI.Mediators;
 
-namespace CodeBase.Infrastructure
+namespace CodeBase.Infrastructure.Services.SaveService
 {
 	[Serializable]
 	public class GameSave

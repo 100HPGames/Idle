@@ -2,11 +2,10 @@
 using System.Linq;
 using CodeBase.Components.States;
 using CodeBase.Tools.SimpleMessenger;
-using CodeBase.Tools.StaticDataLoader;
 using Leopotam.EcsProto;
 using Leopotam.EcsProto.QoL;
 
-namespace CodeBase.Systems.EnemyStateMachine
+namespace CodeBase.Systems.PlayerStateMachine
 {
     public class SwitchStateSystem : IProtoRunSystem
     {

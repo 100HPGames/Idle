@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using CodeBase.Infrastructure;
+using CodeBase.Infrastructure.Services.LevelProgressService;
 using Leopotam.GoogleDocs.Unity;
 using NaughtyAttributes;
 using UnityEngine;

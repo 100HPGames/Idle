@@ -1,4 +1,4 @@
-﻿namespace CodeBase.Infrastructure.SaveService
+﻿namespace CodeBase.Infrastructure.Services.SaveService
 {
     public interface ILoader
     {

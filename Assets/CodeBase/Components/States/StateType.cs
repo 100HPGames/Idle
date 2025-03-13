@@ -1,4 +1,4 @@
-﻿namespace CodeBase.Tools.StaticDataLoader
+﻿namespace CodeBase.Components.States
 {
     public enum StateType
     {

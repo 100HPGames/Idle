@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using _Tools;
-using CodeBase.Infrastructure;
+using CodeBase.Infrastructure.Services;
 using CodeBase.Tools;
+using CodeBase.Tools.CurrencyHandler;
 using CodeBase.Tools.StaticDataLoader;
-using CodeBase.UI.LootBoxShop;
-using MoneyHandler;
+using CodeBase.UI.Mediators;
 
-namespace Loot
+namespace CodeBase.UI.LootBoxes
 {
 	public class LootBoxService : IService, IDisposable
 	{

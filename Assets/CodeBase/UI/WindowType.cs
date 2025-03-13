@@ -1,4 +1,4 @@
-﻿namespace UI.MainMenu
+﻿namespace CodeBase.UI
 {
 	public enum WindowType
 	{

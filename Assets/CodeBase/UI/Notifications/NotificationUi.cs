@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace CodeBase.UI.NotificationFolder
+namespace CodeBase.UI.Notifications
 {
 	public class NotificationUi : MonoBehaviour
 	{

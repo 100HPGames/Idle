@@ -1,11 +1,10 @@
-using System.Collections.Generic;
 using CodeBase.Tools;
 using CodeBase.Tools.StaticDataLoader;
 using Cysharp.Threading.Tasks;
 using Newtonsoft.Json;
 using UnityEngine;
 
-namespace CodeBase.Infrastructure
+namespace CodeBase.Infrastructure.Services
 {
     public class StaticData : IService
     {

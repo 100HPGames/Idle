@@ -1,8 +1,7 @@
-﻿using CodeBase.Infrastructure;
-using CodeBase.Infrastructure.SaveService;
+﻿using CodeBase.Infrastructure.Services.SaveService;
 using CodeBase.Tools;
 
-namespace CodeBase.UI.NotificationFolder
+namespace CodeBase.UI.Notifications
 {
 	public class NotificationService : IService, ILoader, ISaver
 	{

@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace CodeBase.UI.Mediators
+namespace CodeBase.UI.FinishedView
 {
     public class EndLevelView: MonoBehaviour
     {

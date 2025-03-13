@@ -1,11 +1,10 @@
 ﻿using System;
 using CodeBase.Tools;
 using CodeBase.Tools.SimpleMessenger;
-using Leopotam.EcsProto;
 using Leopotam.EcsProto.QoL;
 using UnityEngine;
 
-namespace CodeBase.InputService
+namespace CodeBase.Infrastructure.Services.InputService
 {
 	public class TouchInputService : MonoBehaviour, IService
 	{

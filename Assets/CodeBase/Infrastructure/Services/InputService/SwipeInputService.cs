@@ -2,7 +2,7 @@
 using CodeBase.Tools;
 using UnityEngine;
 
-namespace CodeBase.InputService
+namespace CodeBase.Infrastructure.Services.InputService
 {
 	public class SwipeInputService : MonoBehaviour, IService
 	{

@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using CodeBase.Infrastructure;
+using CodeBase.Infrastructure.Services.MediatoerService;
+using CodeBase.Tools.CurrencyHandler;
 using CodeBase.Tools.Helpers;
 using CodeBase.UI.FlyService;
 using DG.Tweening;
-using UI.MainMenu;
 using UnityEngine;
 
-namespace MoneyHandler
+namespace CodeBase.UI.Mediators
 {
 	public class CurrencyMediator : MonoBehaviour, IMediator, IDisposable
 	{

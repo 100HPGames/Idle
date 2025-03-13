@@ -1,12 +1,10 @@
 using System;
 using System.Collections.Generic;
-using CodeBase.Infrastructure;
-using CodeBase.Infrastructure.SaveService;
-using CodeBase.Tools;
-using CodeBase.Tools.Helpers;
+using CodeBase.Infrastructure.Services.SaveService;
+using CodeBase.UI.Mediators;
 using UnityEngine;
 
-namespace MoneyHandler
+namespace CodeBase.Tools.CurrencyHandler
 {
 	public class CurrencyService : IService, ISaver, ILoader
 	{

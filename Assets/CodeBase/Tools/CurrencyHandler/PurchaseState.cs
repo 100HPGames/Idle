@@ -1,4 +1,4 @@
-﻿namespace MoneyHandler
+﻿namespace CodeBase.Tools.CurrencyHandler
 {
     public enum PurchaseState
     {

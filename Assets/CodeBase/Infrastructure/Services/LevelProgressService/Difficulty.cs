@@ -1,4 +1,4 @@
-﻿namespace CodeBase.Infrastructure
+﻿namespace CodeBase.Infrastructure.Services.LevelProgressService
 {
     public enum Difficulty
     {

@@ -1,10 +1,9 @@
-﻿using CodeBase.Infrastructure.SaveService;
-using CodeBase.Tools;
+﻿using CodeBase.Tools;
 using CodeBase.Tools.StaticDataLoader;
 using Newtonsoft.Json;
 using UnityEngine;
 
-namespace CodeBase.Infrastructure
+namespace CodeBase.Infrastructure.Services.SaveService
 {
 	public class PersistentData : IService, ISaveHandler, ILoadHandler
 	{

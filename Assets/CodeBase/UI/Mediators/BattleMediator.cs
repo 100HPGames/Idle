@@ -1,6 +1,7 @@
 ﻿using System;
 using CodeBase.Components.Interactions;
 using CodeBase.Infrastructure;
+using CodeBase.Infrastructure.Services.MediatoerService;
 using CodeBase.Tools.Helpers;
 using CodeBase.Tools.SimpleMessenger;
 using UnityEngine;

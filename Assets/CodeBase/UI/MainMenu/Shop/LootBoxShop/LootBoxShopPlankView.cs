@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using _Tools;
+using CodeBase.Tools.CurrencyHandler;
+using CodeBase.UI.LootBoxes;
 using CodeBase.UI.Mediators;
-using MoneyHandler;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace CodeBase.UI.LootBoxShop
+namespace CodeBase.UI.MainMenu.Shop.LootBoxShop
 {
 	public class LootBoxShopPlankView : MonoBehaviour
 	{

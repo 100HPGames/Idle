@@ -1,4 +1,4 @@
-﻿using MoneyHandler;
+﻿using CodeBase.UI.Mediators;
 
 namespace CodeBase.Tools.StaticDataLoader
 {

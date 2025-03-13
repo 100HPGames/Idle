@@ -1,4 +1,4 @@
-﻿namespace CodeBase.UI.LootBoxShop
+﻿namespace CodeBase.UI.LootBoxes
 {
     public enum LootBoxType
     {

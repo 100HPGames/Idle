@@ -1,4 +1,4 @@
-﻿namespace CodeBase.Stats
+﻿namespace CodeBase.Tools.Stats
 {
     public class SimpleStat
     {

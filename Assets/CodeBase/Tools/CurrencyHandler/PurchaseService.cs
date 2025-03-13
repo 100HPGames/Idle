@@ -1,18 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using _Tools;
-using CodeBase.Infrastructure;
-using CodeBase.Infrastructure.SaveService;
-using CodeBase.Stats;
-using CodeBase.Tools;
+using CodeBase.Infrastructure.Services;
+using CodeBase.Infrastructure.Services.SaveService;
 using CodeBase.Tools.Helpers;
 using CodeBase.Tools.StaticDataLoader;
-using CodeBase.UI.LootBoxShop;
-using Loot;
-using UnityEngine;
+using CodeBase.UI.LootBoxes;
+using CodeBase.UI.Mediators;
 
-namespace MoneyHandler
+namespace CodeBase.Tools.CurrencyHandler
 {
 	public class PurchaseService : IService, ILoader, ISaver, IDisposable
 	{

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using CodeBase.Infrastructure;
+using CodeBase.Infrastructure.Services.LevelProgressService;
 
 namespace CodeBase.Tools.StaticDataLoader
 {

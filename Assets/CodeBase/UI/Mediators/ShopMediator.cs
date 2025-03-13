@@ -1,12 +1,14 @@
 ﻿using System;
 using CodeBase.Infrastructure;
+using CodeBase.Infrastructure.Services;
+using CodeBase.Infrastructure.Services.MediatoerService;
+using CodeBase.Tools.CurrencyHandler;
 using CodeBase.Tools.Helpers;
 using CodeBase.Tools.StaticDataLoader;
-using CodeBase.UI.LootBoxShop;
-using CodeBase.UI.NotificationFolder;
-using CodeBase.UI.Shop;
-using MoneyHandler;
-using UI.MainMenu;
+using CodeBase.UI.LootBoxes;
+using CodeBase.UI.MainMenu.Shop.CurrencyShop;
+using CodeBase.UI.MainMenu.Shop.LootBoxShop;
+using CodeBase.UI.Notifications;
 using UnityEngine;
 using static CodeBase.Tools.Helpers.CanvasGroupExtension;
 

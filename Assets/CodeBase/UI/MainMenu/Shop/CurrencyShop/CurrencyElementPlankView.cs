@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using CodeBase.Tools.CurrencyHandler;
 using CodeBase.Tools.StaticDataLoader;
 using CodeBase.UI.Mediators;
-using MoneyHandler;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace CodeBase.UI.Shop
+namespace CodeBase.UI.MainMenu.Shop.CurrencyShop
 {
 	public class CurrencyElementPlankView : MonoBehaviour
 	{

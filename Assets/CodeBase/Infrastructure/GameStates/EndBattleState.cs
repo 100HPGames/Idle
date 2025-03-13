@@ -1,11 +1,10 @@
 ﻿using System.Collections.Generic;
 using CodeBase.Components.Interactions;
+using CodeBase.Infrastructure.Services.MediatoerService;
 using CodeBase.Tools.StateMachine;
 using CodeBase.Tools.StaticDataLoader;
+using CodeBase.UI.LootBoxes;
 using CodeBase.UI.Mediators;
-using Loot;
-using MoneyHandler;
-using UI.ChestUI;
 
 namespace CodeBase.Infrastructure.GameStates
 {

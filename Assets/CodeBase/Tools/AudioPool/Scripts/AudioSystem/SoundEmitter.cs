@@ -4,7 +4,7 @@ using CodeBase.Tools.Helpers;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace AudioSystem
+namespace CodeBase.Tools.AudioPool.Scripts.AudioSystem
 {
     [RequireComponent(typeof(AudioSource))]
     public class SoundEmitter : MonoBehaviour

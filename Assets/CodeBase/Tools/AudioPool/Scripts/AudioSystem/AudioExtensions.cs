@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace AudioSystem
+namespace CodeBase.Tools.AudioPool.Scripts.AudioSystem
 {
     public static class AudioExtensions
     {

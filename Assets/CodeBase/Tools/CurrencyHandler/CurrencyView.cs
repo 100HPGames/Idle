@@ -1,10 +1,11 @@
 using CodeBase.Tools.Helpers;
+using CodeBase.UI.Mediators;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace MoneyHandler
+namespace CodeBase.Tools.CurrencyHandler
 {
 	public class CurrencyView : MonoBehaviour
 	{

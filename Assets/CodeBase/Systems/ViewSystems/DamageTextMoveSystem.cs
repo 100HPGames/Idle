@@ -1,4 +1,5 @@
 using CodeBase.Components;
+using CodeBase.Components.Interactions;
 using CodeBase.Tools.StaticDataLoader;
 using Leopotam.EcsProto;
 using Leopotam.EcsProto.QoL;

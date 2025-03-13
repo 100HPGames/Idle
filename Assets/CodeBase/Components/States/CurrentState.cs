@@ -1,6 +1,4 @@
-﻿using CodeBase.Tools.StaticDataLoader;
-
-namespace CodeBase.Components.States
+﻿namespace CodeBase.Components.States
 {
     public struct CurrentState
     {

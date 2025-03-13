@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using CodeBase.Tools.StaticDataLoader;
+﻿using CodeBase.Tools.StaticDataLoader;
 
-namespace CodeBase.Infrastructure
+namespace CodeBase.Infrastructure.Services.LevelProgressService
 {
     public class LocationDTO
     {

@@ -1,12 +1,13 @@
 ﻿using CodeBase.Components.Interactions;
-using CodeBase.InputService;
+using CodeBase.Infrastructure.Services;
+using CodeBase.Infrastructure.Services.InputService;
+using CodeBase.Infrastructure.Services.MediatoerService;
 using CodeBase.Systems;
-using CodeBase.Systems.EnemyStateMachine;
-using CodeBase.Systems.LevelsProgression;
 using CodeBase.Systems.PlayerStateMachine;
 using CodeBase.Systems.UtilsSystems;
 using CodeBase.Systems.ViewSystems;
 using CodeBase.Tools;
+using CodeBase.Tools.CurrencyHandler;
 using CodeBase.Tools.SimpleMessenger;
 using CodeBase.Tools.StateMachine;
 using CodeBase.UI.FlyService;
@@ -14,7 +15,6 @@ using CodeBase.UI.Mediators;
 using Leopotam.EcsProto;
 using Leopotam.EcsProto.QoL;
 using Leopotam.EcsProto.Unity;
-using MoneyHandler;
 
 namespace CodeBase.Infrastructure.GameStates
 {

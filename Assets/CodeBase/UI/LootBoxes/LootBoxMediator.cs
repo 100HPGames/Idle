@@ -1,17 +1,15 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using _Tools;
-using CodeBase.Infrastructure;
+using CodeBase.Infrastructure.Services;
+using CodeBase.Infrastructure.Services.MediatoerService;
 using CodeBase.Tools.Helpers;
 using CodeBase.Tools.StaticDataLoader;
-using CodeBase.UI.LootBoxShop;
-using CodeBase.UI.Mediators;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
 
-namespace UI.ChestUI
+namespace CodeBase.UI.LootBoxes
 {
     public class LootBoxMediator : MonoBehaviour, IMediator
     {

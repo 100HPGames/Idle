@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace UI.ChestUI
+namespace CodeBase.UI.LootBoxes
 {
     public class LootView : MonoBehaviour
     {

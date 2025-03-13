@@ -1,18 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using CodeBase.Infrastructure;
-using CodeBase.InputService;
 using CodeBase.Tools;
+using CodeBase.Tools.CurrencyHandler;
 using CodeBase.Tools.SimpleMessenger;
+using CodeBase.UI;
 using CodeBase.UI.FlyService;
-using CodeBase.UI.NotificationFolder;
+using CodeBase.UI.LootBoxes;
+using CodeBase.UI.Mediators;
 using Cysharp.Threading.Tasks;
-using MoneyHandler;
-using UI.ChestUI;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace CodeBase.UI.Mediators
+namespace CodeBase.Infrastructure.Services.MediatoerService
 {
 	public class MediatorFactory : IService
 	{

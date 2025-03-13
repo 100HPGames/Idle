@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using CodeBase.Infrastructure;
+using CodeBase.Infrastructure.Services.MediatoerService;
 using CodeBase.Tools.Helpers;
-using UI.MainMenu;
 using UnityEngine;
 
 namespace CodeBase.UI.Mediators
